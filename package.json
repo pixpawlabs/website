@@ -1,7 +1,7 @@
 {
   "name": "website",
   "version": "1.0.0",
-  "description": "Personal website",
+  "description": "Pixpawlabs website",
   "author": "Paolo Sacconier",
   "license": "MIT",
   "scripts": {
@@ -16,7 +16,7 @@
     "lint": "npm run format && npm run lint:html && npm run lint:css && npm run lint:js",
     "prepare": "husky install",
     "clean": "rm -rf dist",
-    "build": "npm run clean && mkdir -p dist && cp -R src/* dist/",
+    "build": "npm run clean && mkdir -p dist && cp -R src/* dist/ && node build.js main-picture.png",
     "test:visual": "backstop test --no-open",
     "test:visual:approve": "backstop approve",
     "test": "npm run lint && npm run test:visual",
@@ -29,6 +29,7 @@
     "husky": "^9.0.11",
     "husky-init": "^8.0.0",
     "prettier": "^3.3.2",
+    "sharp": "^0.33.4",
     "standard": "^17.1.0",
     "stylelint": "^16.6.1",
     "stylelint-prettier": "^5.0.0"
