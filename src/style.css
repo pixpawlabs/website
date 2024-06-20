@@ -17,7 +17,7 @@ body {
   width: 70%;
   height: 100%;
   animation: fadeIn 1s ease-in-out;
-  background-image: url('https://s.gravatar.com/avatar/f00946fbd1a30d45a1122c2d1b7cb966?s=2048');
+  background-image: url('./main-picture.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
