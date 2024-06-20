@@ -20,7 +20,7 @@
     "test:visual": "backstop test --no-open",
     "test:visual:approve": "backstop approve",
     "test": "npm run lint && npm run test:visual",
-    "start-and-test": "http-server ./dist -p 8080 & sleep 5; npm run test; kill $!"
+    "start-and-test": "http-server ./dist -p 8080 & sleep 5; npm run test; TEST_EXIT_CODE=$?; kill $!; exit $TEST_EXIT_CODE"
   },
   "devDependencies": {
     "backstopjs": "^6.3.23",
