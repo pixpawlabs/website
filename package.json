@@ -23,7 +23,7 @@
     "start-and-test": "http-server ./dist -p 8080 & sleep 5; npm run test; TEST_EXIT_CODE=$?; kill $!; exit $TEST_EXIT_CODE"
   },
   "devDependencies": {
-    "backstopjs": "^6.3.23",
+    "backstopjs": "^6.3.25",
     "htmlhint": "^1.1.4",
     "http-server": "^14.1.1",
     "husky": "^9.1.5",
