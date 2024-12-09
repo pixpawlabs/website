@@ -28,7 +28,7 @@
     "http-server": "^14.1.1",
     "husky": "^9.1.6",
     "husky-init": "^8.0.0",
-    "prettier": "^3.3.3",
+    "prettier": "^3.4.2",
     "sharp": "^0.33.5",
     "standard": "^17.1.2",
     "stylelint": "^16.10.0",
