@@ -29,7 +29,7 @@
     "husky": "^9.1.7",
     "husky-init": "^8.0.0",
     "prettier": "^3.4.2",
-    "sharp": "^0.34.1",
+    "sharp": "^0.34.3",
     "standard": "^17.1.2",
     "stylelint": "^16.18.0",
     "stylelint-prettier": "^5.0.2"
