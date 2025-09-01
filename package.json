@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "backstopjs": "^6.3.25",
-    "htmlhint": "^1.1.4",
+    "htmlhint": "^1.6.3",
     "http-server": "^14.1.1",
     "husky": "^9.1.7",
     "husky-init": "^8.0.0",
